@@ -1,0 +1,30 @@
+.jc {
+	justify-content: center;
+}
+@wt: #fff;
+@f14: 14px;
+@f30: 30px;
+.d-b(){
+  display: block;
+}
+.swiper-container {
+    width: 1024px;
+    height: 576px;
+    background-color: #1d2131;
+    .swiper-wrapper{
+    	position: relative;
+    	.logo{
+    		@w:50px;
+    		position: absolute;
+    		top: @w;
+    		right: @w;
+    	}
+    	.swiper-slide{
+    		.icon-shandian{
+				color: @wt;
+				font-size: @f30;
+				.d-b();
+    		}
+    	}
+    }
+}
